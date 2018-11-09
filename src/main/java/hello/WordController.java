@@ -10,7 +10,7 @@ public class WordController {
 
 
          @GET
-		 @Path("/{words}")
+		 @Path("/words")
         public void checkPalindromeAnag(@PathParam("word") String str)
 	{ 
 
