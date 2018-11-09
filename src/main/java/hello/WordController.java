@@ -7,7 +7,6 @@ public class WordController {
     // TODO Implement the /words/{word} endpoint
     
     
-    	static final int NO_OF_CHARS = 256; 
 
 
          @GET
@@ -16,6 +15,7 @@ public class WordController {
 	{ 
 
 		
+    	static final int NO_OF_CHARS = 256; 
 		String reverse = new StringBuffer(str).reverse().toString();
         String palindrome = "false";
          boolean pal = false;
